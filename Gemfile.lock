@@ -1,0 +1,55 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.5)
+    cinch (2.0.9)
+    cinch-title (0.3.1)
+      cinch
+      curb
+      nokogiri
+    crack (0.4.1)
+      safe_yaml (~> 0.9.0)
+    curb (0.8.4)
+    diff-lcs (1.2.4)
+    fuubar (1.2.1)
+      rspec (~> 2.0)
+      rspec-instafail (~> 0.2.0)
+      ruby-progressbar (~> 1.0)
+    mini_portile (0.5.1)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
+    rspec (2.14.1)
+      rspec-core (~> 2.14.0)
+      rspec-expectations (~> 2.14.0)
+      rspec-mocks (~> 2.14.0)
+    rspec-core (2.14.5)
+    rspec-expectations (2.14.3)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-instafail (0.2.4)
+    rspec-mocks (2.14.3)
+    ruby-progressbar (1.2.0)
+    safe_yaml (0.9.7)
+    scashin133-xmpp4r-simple (0.8.9)
+      xmpp4r (>= 0.3.2)
+    usagewatch (0.0.7)
+    vcr (2.6.0)
+    webmock (1.14.0)
+      addressable (>= 2.2.7)
+      crack (>= 0.3.2)
+    wolfram-alpha (0.3.1)
+      nokogiri
+    xmpp4r (0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cinch
+  cinch-title
+  fuubar
+  rspec
+  scashin133-xmpp4r-simple (~> 0.8.9)
+  usagewatch
+  vcr
+  webmock
+  wolfram-alpha
