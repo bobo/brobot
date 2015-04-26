@@ -4,8 +4,8 @@ module Cinch
   module Plugins
     class Wolfram
       include Cinch::Plugin
-      match /w: (.+)/, :use_prefix => false
-      self.prefix = /w:/ 
+      match /^w: (.+)/, :use_prefix => false
+      self.prefix = /^w:/
 
 
 
@@ -25,7 +25,7 @@ module Cinch
           "Sorry, I've no idea"
         end
       end
-     
+
       def parse_response(response)
         pod = response.find { |pod| pod.title == "Result" }
         if pod.nil?
